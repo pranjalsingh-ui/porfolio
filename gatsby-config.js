@@ -40,5 +40,12 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://pranjalsingh.netlify.app/",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
   ],
 }
