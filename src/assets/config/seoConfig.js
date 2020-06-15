@@ -1,4 +1,4 @@
-import image from "../../assets/siteImage.png"
+import image from "../../assets/siteImage1.png"
 const title = "Pranjal's Portfolio"
 const description =
   "Pranjal Singh:A graduate from MSU,Vadodara.experienced in Photography,painting,Photoshop,illustrator,In Design,premiere Pro."
