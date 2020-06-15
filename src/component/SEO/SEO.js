@@ -36,6 +36,7 @@ export default function SEO({ siteTitle }) {
         { name: "twitter:title", content: siteTitle },
         { name: "twitter:description", content: siteInfo.twitterDescription },
         { name: "twitter:image", content: siteInfo.twitterImage },
+        { name: "twitter:image:alt", content: siteInfo.twitterImageAlt },
       ]}
     >
       <html lang="en" />

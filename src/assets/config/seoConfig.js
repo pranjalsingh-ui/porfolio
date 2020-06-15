@@ -8,6 +8,7 @@ const seo = {
   twitterCard: "summary_large_image",
   twitterDescription: description,
   twitterImage: image,
+  twitterImageAlt: "Pranjal singh",
   ogUrl: url,
   ogType: "website",
   ogDescription: description,
