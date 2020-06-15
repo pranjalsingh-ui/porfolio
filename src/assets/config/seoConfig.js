@@ -1,8 +1,8 @@
+import image from "../../assets/siteImage.png"
 const title = "Pranjal's Portfolio"
 const description =
   "Pranjal Singh:A graduate in photography from MSU,Vadodara.Hands on experience in Photography,painting,Photoshop,illustrator,In Design,premiere Pro and after effects"
-const url = ""
-const image = ""
+const url = "https://pranjalsingh.netlify.app"
 
 const seo = {
   twitterCard: "summary_large_image",
