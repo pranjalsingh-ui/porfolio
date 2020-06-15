@@ -23,7 +23,10 @@ export default function SEO({ siteTitle }) {
         { itemprop: "name", content: siteInfo.googleName },
         { itemprop: "description", content: siteInfo.googleDescription },
         { itemprop: "image", content: siteInfo.googleImage },
-        {name="google-site-verification", content="c_SFLCk5DarGwY80aaq8_y5xg45iVLP9xUyWWqtErew"},
+        {
+          name: "google-site-verification",
+          content: "c_SFLCk5DarGwY80aaq8_y5xg45iVLP9xUyWWqtErew",
+        },
 
         // Facebook Meta Tags
         { property: "og:url", content: siteInfo.ogUrl },
