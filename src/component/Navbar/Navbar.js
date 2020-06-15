@@ -7,7 +7,7 @@ import Img from "gatsby-image/withIEPolyfill"
 function Navbar() {
   const data = useStaticQuery(graphql`
     query {
-      sign: file(relativePath: { eq: "home/Signature_of_Andrew_Scheer.png" }) {
+      sign: file(relativePath: { eq: "home/Signature_of_Andrew_Scheer.webp" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
