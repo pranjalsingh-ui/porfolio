@@ -1,8 +1,8 @@
 module.exports = {
   /* Your site config here */
-  siteMetadata{
-    siteUrl:"https://pranjalsingh.netlify.app"
-  }
+  siteMetadata: {
+    siteUrl: "https://pranjalsingh.netlify.app",
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
