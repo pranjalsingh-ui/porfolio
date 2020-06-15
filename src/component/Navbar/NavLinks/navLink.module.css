@@ -1,0 +1,52 @@
+.linkContainer {
+  list-style: none;
+  letter-spacing: 1px;
+  min-height: 100%;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.linkContainer:hover {
+  border-bottom: 1px solid #666666;
+}
+
+.link {
+  text-decoration: none;
+  display: block;
+  color: #181818;
+  font-size: 1.2rem;
+  min-height: 100%;
+}
+
+.activeClass {
+  border-bottom: 1px solid #666666;
+}
+
+@media (min-width: 490px) and (max-width: 768px) {
+  .link {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+  .linkContainer {
+    letter-spacing: 2px;
+    margin-right: 24px;
+  }
+  .link {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .linkContainer {
+    letter-spacing: 2px;
+    margin-right: 28px;
+  }
+  .link {
+    font-size: 1.9rem;
+  }
+  .linkContainer:hover {
+    border-bottom: 2px solid #666666;
+  }
+}

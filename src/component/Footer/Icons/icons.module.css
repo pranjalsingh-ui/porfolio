@@ -1,0 +1,124 @@
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.call {
+  cursor: pointer;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-image: url("../../../assets/icon/callIcon.svg");
+}
+
+.call:hover {
+  filter: invert(100%);
+}
+.email {
+  cursor: pointer;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-image: url("../../../assets/icon/emailIcon.svg");
+}
+
+.email:hover {
+  filter: invert(100%);
+}
+
+.whatsapp {
+  cursor: pointer;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  background-image: url("../../../assets/icon/whatsappIcon.svg");
+}
+
+.whatsapp:hover {
+  filter: invert(100%);
+}
+
+.linkdin {
+  cursor: pointer;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background-size: cover;
+  background-image: url("../../../assets/icon/linkedinIcon.svg");
+}
+
+.linkdin:hover {
+  filter: invert(100%);
+}
+
+.twitter {
+  cursor: pointer;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background-size: cover;
+  background-image: url("../../../assets/icon/twtrIcon.svg");
+}
+
+.twitter:hover {
+  filter: invert(100%);
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+  .call {
+    width: 67px;
+    height: 67px;
+  }
+
+  .email {
+    width: 67px;
+    height: 67px;
+  }
+
+  .whatsapp {
+    width: 90px;
+    height: 90px;
+  }
+
+  .linkdin {
+    width: 67px;
+    height: 67px;
+  }
+
+  .twitter {
+    width: 67px;
+    height: 67px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .call {
+    width: 80px;
+    height: 80px;
+  }
+
+  .email {
+    width: 80px;
+    height: 80px;
+  }
+
+  .whatsapp {
+    width: 95px;
+    height: 95px;
+  }
+
+  .linkdin {
+    width: 80px;
+    height: 80px;
+  }
+
+  .twitter {
+    width: 80px;
+    height: 80px;
+  }
+}

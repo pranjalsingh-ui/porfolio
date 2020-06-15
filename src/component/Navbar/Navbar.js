@@ -1,0 +1,39 @@
+import React from "react"
+import NavLink from "./NavLinks/Navlinks"
+import Styles from "./Navbar.module.css"
+import { useStaticQuery, Link } from "gatsby"
+import Img from "gatsby-image/withIEPolyfill"
+
+function Navbar() {
+  const data = useStaticQuery(graphql`
+    query {
+      sign: file(relativePath: { eq: "home/Signature_of_Andrew_Scheer.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
+  return (
+    <nav className={Styles.navContainer}>
+      <ul className={Styles.navLinks}>
+        <NavLink to="/" name="Home" />
+        <li className={Styles.signLinkContainer}>
+          <Link to="/">
+            <Img
+              fluid={data.sign.childImageSharp.fluid}
+              className={Styles.signLink}
+              objectFit="contain"
+              alt="Go to Home"
+            />
+          </Link>
+        </li>
+        <NavLink to="/work" name="Work" />
+      </ul>
+    </nav>
+  )
+}
+
+export default Navbar
