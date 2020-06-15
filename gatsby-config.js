@@ -1,5 +1,8 @@
 module.exports = {
   /* Your site config here */
+  siteMetadata{
+    siteUrl:"https://pranjalsingh.netlify.app"
+  }
   plugins: [
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
@@ -43,7 +46,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://pranjalsingh.netlify.app/",
+        host: "https://pranjalsingh.netlify.app",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
