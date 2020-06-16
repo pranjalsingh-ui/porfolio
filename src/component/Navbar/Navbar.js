@@ -30,7 +30,7 @@ function Navbar() {
             />
           </Link>
         </li>
-        <NavLink to="/work" name="Work" />
+        <NavLink to="/about" name="About" />
       </ul>
     </nav>
   )

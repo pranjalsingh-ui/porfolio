@@ -22,14 +22,14 @@ export const query = graphql`
     }
     lady: file(relativePath: { eq: "home/coco_rocha23.png" }) {
       childImageSharp {
-        fluid(cropFocus: CENTER, maxHeight: 600, quality: 100) {
+        fluid(cropFocus: CENTER, maxHeight: 600) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     deadpool: file(relativePath: { eq: "home/deadpool.jpg" }) {
       childImageSharp {
-        fluid(maxHeight: 500, quality: 100) {
+        fluid(maxHeight: 500) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }

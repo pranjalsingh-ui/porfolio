@@ -33,8 +33,13 @@
 .deadpool {
   margin-top: 15px;
   width: 95%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.deadpoolImg {
+  height: 100%;
 }
 
 .batman {
@@ -71,9 +76,6 @@
     margin-right: auto;
   }
 
-  .deadpoolImg {
-    height: 45vh;
-  }
   .batmanImg {
     height: 35vh;
   }

@@ -3,12 +3,12 @@ import Img from "gatsby-image/withIEPolyfill/index"
 import Styles from "./home.module.css"
 
 function Home({ data }) {
-  console.log(data.lady.childImageSharp.fluid)
   return (
     <div className={Styles.homeContainer}>
       <div className={Styles.signContainer}>
         <Img
           objectFit="contain"
+          alt="Sign of Pranjal Singh"
           fluid={data.sign.childImageSharp.fluid}
           className={Styles.signImg}
         />
