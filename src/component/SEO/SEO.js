@@ -1,6 +1,7 @@
 import React from "react"
 import Helmet from "react-helmet"
 import siteInfo from "../../assets/config/seoConfig.js"
+import Logo from "../../assets/logo.jpg"
 
 export default function SEO({ siteTitle }) {
   return (
@@ -52,6 +53,7 @@ export default function SEO({ siteTitle }) {
           "name":"Pranjal singh",
           "email":"pranjal.ps2000@gmail.com",
           gender:"male",
+          "logo":${Logo}
           "knowsAbout":"Photography,painting,adobe software"
           "url": "https://pranjalsingh.netlify.app",
           "contactPoint": {
