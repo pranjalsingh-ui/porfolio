@@ -47,19 +47,19 @@ export default function SEO({ siteTitle }) {
       <script type="application/ld+json">
         {`
         {
-          "@context": "https://pranjalsingh.netlify.app",
+          "@context": "https://schema.org",
           "@type": "Person",
           "address":"Vadodara,Gujrat",
           "name":"Pranjal singh",
           "email":"pranjal.ps2000@gmail.com",
-          gender:"male",
-          "logo":${Logo}
-          "knowsAbout":"Photography,painting,adobe software"
+          "gender":"male",
+          "logo":"${Logo}",
+          "knowsAbout":"Photography,painting,adobe software",
           "url": "https://pranjalsingh.netlify.app",
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+91 94527 65636",
-            "contactType": "Personal",
+            "contactType": "Personal"
           }
         }
       `}
