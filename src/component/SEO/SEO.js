@@ -43,6 +43,25 @@ export default function SEO({ siteTitle }) {
         { name: "twitter:image:alt", content: siteInfo.twitterImageAlt },
       ]}
     >
+      <script type="application/ld+json">
+        {`
+        {
+          "@context": "https://pranjalsingh.netlify.app",
+          "@type": "Person",
+          "address":"Vadodara,Gujrat",
+          "name":"Pranjal singh",
+          "email":"pranjal.ps2000@gmail.com",
+          gender:"male",
+          "knowsAbout":"Photography,painting,adobe software"
+          "url": "https://pranjalsingh.netlify.app",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91 94527 65636",
+            "contactType": "Personal",
+          }
+        }
+      `}
+      </script>
       <html lang="en" />
     </Helmet>
   )
