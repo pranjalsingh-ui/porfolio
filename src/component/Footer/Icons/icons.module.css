@@ -23,7 +23,8 @@
   width: 60px;
   height: 60px;
   background-size: cover;
-  background-image: url("../../../assets/icon/emailIcon.svg");
+  opacity: 0.8;
+  background-image: url("../../../assets/icon/new mail.png");
 }
 
 .email:hover {

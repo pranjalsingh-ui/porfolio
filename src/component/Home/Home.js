@@ -30,13 +30,16 @@ function Home({ data }) {
           className={Styles.deadpoolImg}
         />
       </div>
-      <div className={Styles.deadpool}>
+      <div className={Styles.minia}>
         <Img
           alt="london silhouette"
           objectFit="contain"
           fluid={data.metropolis.childImageSharp.fluid}
-          className={Styles.deadpoolImg}
+          className={Styles.miniaImg}
         />
+        <div className={Styles.overlay}>
+          <div className={Styles.text}>PAINTING</div>
+        </div>
       </div>
       <div className={Styles.batman}>
         <Img

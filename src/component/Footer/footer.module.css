@@ -16,7 +16,7 @@
 .year {
   margin-top: 5px;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
 }
 
 .collegeName {
@@ -38,19 +38,19 @@
     background-size: 90% 99%;
   }
   .nameHeading {
-    letter-spacing: 2px;
-    font-size: 2rem;
+    letter-spacing: 1px;
+    font-size: 1.8rem;
   }
 
   .collegeName {
-    font-size: 2.3rem;
-    letter-spacing: 2px;
+    font-size: 2rem;
+    letter-spacing: 1px;
     text-align: center;
   }
   .year {
     margin-top: 10px;
     margin-bottom: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -65,18 +65,18 @@
     background-clip: border-box;
   }
   .nameHeading {
-    letter-spacing: 2.1px;
-    font-size: 2.3rem;
+    letter-spacing: 1px;
+    font-size: 2rem;
   }
 
   .collegeName {
-    font-size: 2.5rem;
-    letter-spacing: 2px;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
     text-align: center;
   }
   .year {
     margin-top: 10px;
     margin-bottom: 1.5rem;
-    font-size: 2.1rem;
+    font-size: 1.7rem;
   }
 }

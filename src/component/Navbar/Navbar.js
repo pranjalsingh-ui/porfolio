@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <nav className={Styles.navContainer}>
       <ul className={Styles.navLinks}>
-        <NavLink to="/" name="Home" />
+        <NavLink to="/" name="HOME" />
         <li className={Styles.signLinkContainer}>
           <Link to="/">
             <Img
@@ -30,7 +30,7 @@ function Navbar() {
             />
           </Link>
         </li>
-        <NavLink to="/about" name="About" />
+        <NavLink to="/about" name="ABOUT" />
       </ul>
     </nav>
   )

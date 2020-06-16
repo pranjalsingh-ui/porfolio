@@ -4,7 +4,6 @@ import SEO from "../component/SEO/SEO"
 import About from "../component/About/About"
 
 function AboutPage({ data }) {
-  console.log(data)
   return (
     <Layout>
       <SEO siteTitle="About Pranjal" />

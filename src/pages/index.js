@@ -34,7 +34,7 @@ export const query = graphql`
         }
       }
     }
-    metropolis: file(relativePath: { eq: "home/Metropolis6.jpg" }) {
+    metropolis: file(relativePath: { eq: "home/new tnl.png" }) {
       childImageSharp {
         fluid(maxHeight: 500) {
           ...GatsbyImageSharpFluid_withWebp
