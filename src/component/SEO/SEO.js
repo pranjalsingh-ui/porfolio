@@ -53,7 +53,7 @@ export default function SEO({ siteTitle }) {
           "name":"Pranjal singh",
           "email":"pranjal.ps2000@gmail.com",
           "gender":"male",
-          "logo":"${Logo}",
+          "image":"${Logo}",
           "knowsAbout":"Photography,painting,adobe software",
           "url": "https://pranjalsingh.netlify.app",
           "contactPoint": {
